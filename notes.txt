@@ -1,0 +1,71 @@
+BACKEND
+
+npm install typescript --save-dev
+tsc --init
+
+npm install fastify @fastify/cors
+
+npm install tsx
+
+npm install @types/node --save-dev
+
+
+create src paste 
+create server.ts and routes.ts
+
+make initial config
+
+
+criar bd no mongo
+- alterar acesso para qualquer ip (Network access)
+- alterar a role do user para admin (Database access > edit > built-in role)
+
+jonasrvrocha
+VngcyrfwbaUTzS7i
+
+mongodb+srv://jonasrvrocha:<password>@clientes.m1plx7j.mongodb.net/?retryWrites=true&w=majority&appName=clientes
+
+OBS: adicionar o nome do bd depois da /
+mongodb+srv://jonasrvrocha:<password>@clientes.m1plx7j.mongodb.net/clients?retryWrites=true&w=majority&appName=clientes
+
+instalar prisma
+npm install prisma --save-dev
+npm install @prisma/client
+
+
+npm 
+npx prisma init
+
+alterar para mongo o schema (prisma > schema) e conexão no .env
+
+criar a model da tabela
+
+npx prisma generate
+
+criar pasta prisma para fazer a conexão com o bd
+
+npx prisma studio
+
+
+
+criar pastas controller e services
+controller = regras de negócio
+services = integração com o bd
+
+criar a service e depois a controller chamando a service
+
+
+//////////
+
+
+FRONTEND
+
+npm create vite@latest frontend
+
+install tailwind
+
+npm install react-icons
+
+
+install axios
+npm instal axios
